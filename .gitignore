@@ -1,0 +1,47 @@
+# Build trees
+/build/
+/out/
+/install/
+/.vs/
+/.vscode/
+*.user
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+Testing/
+_deps/
+compile_commands.json
+
+# Visual Studio / MSVC
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.dll
+*.exe
+*.log
+
+# Sanitizer / crash artifacts
+*.su
+*.su.*
+asan_*.txt
+crash-*.dmp
+*.dmp
+
+# Runtime debris produced by tools, benchmarks, proofs and tests
+*.pfstate
+*.pfstate.pftmp
+*.pfsnap
+*.pfscratch
+*.pftmp
+*.tmp
+pf-scratch/
+proof-scratch/
+bench-scratch/
